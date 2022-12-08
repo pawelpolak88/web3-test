@@ -77,10 +77,12 @@ function App() {
                 {address === myEthAddress ? address : null}
               </span>
             </div>
-            <div className="connect-address">
-              <span className="info">GoerliETH :</span>
-              <span className="address">{ethBalance}</span>
-            </div>
+            {address === myEthAddress && (
+              <div className="connect-address">
+                <span className="info">GoerliETH :</span>
+                <span className="address">{ethBalance}</span>
+              </div>
+            )}
           </div>
         )}
       </section>
