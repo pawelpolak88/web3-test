@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.section-content {
+  padding: 20px;
+  background-color: antiquewhite;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.btn {
+  width: 100%;
+ 
+}
+
+.btn button {
+  padding: 3px 12px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-connected button {
+  margin-bottom: 15px;
+  background-color: chartreuse;
+}
+
+.btn-connected button:hover {
+  background-color: red;
+}
+
+.connect-address {
+  display: flex;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.address {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.connect-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
